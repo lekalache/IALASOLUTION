@@ -41,7 +41,7 @@ const CONFIG = {
         'Riche expérience de cas, service technique professionnel, efficacité de communication de qualité',
 
     // 特性1
-   pour  PROXIO_FEATURE_1_ICON_CLASS: 'fa-solid fa-stopwatch', 
+    PROXIO_FEATURE_1_ICON_CLASS: 'fa-solid fa-stopwatch', 
     PROXIO_FEATURE_1_ICON_IMG_URL: '', // 图片图标选填，默认是fas图标，如果需要图片图标可以填写图片地址，示例/avatar.png
     PROXIO_FEATURE_1_TITLE_1: 'Intégrer l\'IA peut transformer votre entreprise',
     PROXIO_FEATURE_1_TEXT_1: 'Un processus de conception simplifié garantit une livraison rapide, maintenant la qualité et les détails même sous des délais serrés.',
