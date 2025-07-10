@@ -1,19 +1,15 @@
-/**
- * 另一个落地页主题
- */
-const CONFIG = {
-    PROXIO_WELCOME_COVER_ENABLE: true, //是否显示页面进入的欢迎文字
-    PROXIO_WELCOME_TEXT: 'Bienvenue sur ce site, cliquez n\'importe où pour entrer', // 欢迎文字，留空则不启用
 
-    // 英雄区块导航
-    PROXIO_HERO_ENABLE: true, // 开启英雄区
-    PROXIO_HERO_TITLE_1: 'Outil de création de site web gratuit et open source basé sur Notion', // 英雄区文字
-    PROXIO_HERO_TITLE_2: 'Créez votre site web facilement avec vos notes et multipliez votre valeur', // 英雄区文字
-    // 英雄区两个按钮，如果TEXT留空则隐藏按钮
-    PROXIO_HERO_BUTTON_1_TEXT: 'Commencer l\'expérience', // 英雄区按钮
+const CONFIG = {
+    PROXIO_WELCOME_COVER_ENABLE: true, 
+    PROXIO_WELCOME_TEXT: 'Bienvenue sur ce site, cliquez n\'importe o\ù pour entrer', // 欢迎文字，留空则不启用
+
+    PROXIO_HERO_ENABLE: true, 
+    PROXIO_HERO_TITLE_1: 'L\'IA pour devenir plus efficace',
+    PROXIO_HERO_TITLE_2: ' Améliorez considérablement votre IMPACT', 
+    PROXIO_HERO_BUTTON_1_TEXT: 'Decouvrir nos formations', 
     PROXIO_HERO_BUTTON_1_URL:
-        'https://docs.tangly1024.com/article/vercel-deploy-notion-next', // 英雄区按钮
-    PROXIO_HERO_BUTTON_2_TEXT: 'Suivez-nous sur Github', // 英雄区按钮
+        'https://www.ialasolution.com/formations', 
+    PROXIO_HERO_BUTTON_2_TEXT: 'Suivez-nous sur Github', 
     PROXIO_HERO_BUTTON_2_URL: 'https://github.com/tangly1024/NotionNext', // 英雄区按钮
     PROXIO_HERO_BUTTON_2_ICON: '/images/starter/github.svg', // 英雄区按钮2的图标，不需要则留空
 
@@ -24,9 +20,9 @@ const CONFIG = {
 
     // 文章区块
     PROXIO_BLOG_ENABLE: true, // 首页博文区块开关
-    PROXIO_BLOG_TITLE: 'Réalisations',
+    PROXIO_BLOG_TITLE: 'Articles',
     PROXIO_BLOG_COUNT: 4, // 首页博文区块展示前4篇文章
-    PROXIO_BLOG_TEXT_1: 'Mes dernières actualités',
+    PROXIO_BLOG_TEXT_1: 'Nos dernières actualités',
 
     // 区块默认内容显示文章的summary文本，但也支持用自定义图片或logo德国替换掉占位显示内容
     PROXIO_BLOG_PLACEHOLDER_IMG_URL_1: '', // 填写要替换成的图片，支持图床或直接上传到项目中，示例  /images/feature-1.webp
@@ -45,24 +41,23 @@ const CONFIG = {
         'Riche expérience de cas, service technique professionnel, efficacité de communication de qualité',
 
     // 特性1
-    PROXIO_FEATURE_1_ICON_CLASS: 'fa-solid fa-stopwatch', // fas图标
+   pour  PROXIO_FEATURE_1_ICON_CLASS: 'fa-solid fa-stopwatch', 
     PROXIO_FEATURE_1_ICON_IMG_URL: '', // 图片图标选填，默认是fas图标，如果需要图片图标可以填写图片地址，示例/avatar.png
-    PROXIO_FEATURE_1_TITLE_1: 'Flux de travail efficace',
+    PROXIO_FEATURE_1_TITLE_1: 'Intégrer l\'IA peut transformer votre entreprise',
     PROXIO_FEATURE_1_TEXT_1: 'Un processus de conception simplifié garantit une livraison rapide, maintenant la qualité et les détails même sous des délais serrés.',
 
     PROXIO_FEATURE_2_ICON_CLASS: 'fa-solid fa-comments',
     PROXIO_FEATURE_2_ICON_IMG_URL: '', 
-    PROXIO_FEATURE_2_TITLE_1: 'Processus collaboratif',
-    PROXIO_FEATURE_2_TEXT_1: 'Collaboration étroite avec vous, intégrant les retours pour créer un design qui dépasse les attentes',
+    PROXIO_FEATURE_2_TITLE_1: 'Formations sur mesure',
+    PROXIO_FEATURE_2_TEXT_1: 'Boostez vos compétences avec nos formations sur mesure ! Adaptées à vos besoins, nos sessions combinent expertise et innovation pour votre réussite.',
 
     PROXIO_FEATURE_3_ICON_CLASS: 'fa-solid fa-search',
     PROXIO_FEATURE_2_ICON_IMG_URL: '',
-    PROXIO_FEATURE_3_TITLE_1: 'Maîtrise des détails',
-    PROXIO_FEATURE_3_TEXT_1: 'Perfectionnement minutieux de chaque élément, garantissant un résultat raffiné et unifié, mémorable à première vue',
+    PROXIO_FEATURE_3_TITLE_1: 'Solutions stratégiques',
+    PROXIO_FEATURE_3_TEXT_1: 'Nos services de consulting sur mesure optimisent vos processus et accélèrent votre croissance avec des stratégies adaptées à vos objectifs.',
 
     PROXIO_FEATURE_BUTTON_TEXT: 'En savoir plus', // 按钮文字
-    PROXIO_FEATURE_BUTTON_URL: 'https://github.com/tangly1024/NotionNext', // 按钮跳转
-
+    PROXIO_FEATURE_BUTTON_URL: 'https://calendly.com/les-consultants-ia/30min', 
     // 首页生涯区块
     PROXIO_CAREER_ENABLE: true, // 区块开关
     PROXIO_CAREER_TITLE: 'Parcours',
@@ -158,30 +153,29 @@ const CONFIG = {
 
     // 关于作者区块
     PROXIO_ABOUT_ENABLE: true, // 关于作者区块区块开关
-    PROXIO_ABOUT_TITLE: 'À propos de l\'auteur',
-    PROXIO_ABOUT_TEXT_1: 'Je suis un Architecte Devenu Designer Produit',
-    PROXIO_ABOUT_TEXT_2:
-        'Avec une formation en architecture, j\'applique maintenant mon expertise au design produit, alliant esthétique, fonctionnalité et innovation. Mon objectif est de créer des designs modernes et centrés sur l\'utilisateur qui donnent vie à votre vision.',
+    PROXIO_ABOUT_TITLE: 'À propos de nous',
+    PROXIO_ABOUT_TEXT_1: 'Deux passionnés créant des solutions technologiques innovantes pour votre réussite.',
+    PROXIO_ABOUT_TEXT_2: 'Nous sommes deux amis passionnés par l\’innovation et la technologie, unis par une vision commune : simplifier et accélérer la transformation digitale des entreprises. Avec IALASolution, nous mettons notre expertise au service de solutions sur mesure, conçues pour répondre aux défis d\’aujourd\’hui et anticiper ceux de demain.',
     PROXIO_ABOUT_PHOTO_URL: '/avatar.png',
     PROXIO_ABOUT_KEY_1: 'Années d\'expérience',
     PROXIO_ABOUT_VAL_1: '10+',
     PROXIO_ABOUT_KEY_2: 'Clients',
-    PROXIO_ABOUT_VAL_2: '1000+',
+    PROXIO_ABOUT_VAL_2: '10+',
     PROXIO_ABOUT_KEY_3: 'Projets livrés',
-    PROXIO_ABOUT_VAL_3: '5000+',
+    PROXIO_ABOUT_VAL_3: '5+',
     PROXIO_ABOUT_KEY_4: 'Temps de création cumulé (heures)',
-    PROXIO_ABOUT_VAL_4: '10000+',
+    PROXIO_ABOUT_VAL_4: 'Beaucoup',
 
-    PROXIO_ABOUT_BUTTON_URL: '/about',
-    PROXIO_ABOUT_BUTTON_TEXT: 'À propos de moi',
+    PROXIO_ABOUT_BUTTON_URL: 'https://calendly.com/les-consultants-ia/30min',
+    PROXIO_ABOUT_BUTTON_TEXT: 'Prendre un rendez-vous',
 
     // 横向滚动文字
     PROXIO_BRANDS_ENABLE: true, // 滚动文字
     PROXIO_BRANDS: [
-        'Design Web',
-        'Design de Logo',
-        'Design d\'Application Mobile',
-        'Design Produit'
+        'Formation IA',
+        'Solutions sur-mesure',
+        'Optimisation des process',
+        'Implémentation et maintenance'
     ],
 
     PROXIO_FOOTER_SLOGAN: 'Nous créons des expériences numériques pour les marques et entreprises grâce à la technologie.',
@@ -190,18 +184,18 @@ const CONFIG = {
     // 页脚菜单
     PROXIO_FOOTER_LINKS: [
         {
-            name: 'Liens Amis',
+            name: 'Liens',
             menus: [
                 {
-                    title: 'Notes d\'Apprentissage de Tangly',
-                    href: 'https://blog.tangly1024.com'
+                    title: 'IALASOLUTION',
+                    href: 'https://ialasolution.com'
                 },
                 {
                     title: 'NotionNext',
                     href: 'https://www.tangly1024.com'
                 }
             ]
-        },
+        }/*,
         {
             name: 'Développeur',
             menus: [
@@ -223,7 +217,8 @@ const CONFIG = {
                     href: 'https://blog.tangly1024.com/about'
                 }
             ]
-        }],
+        }*/
+    ],
 
     PROXIO_FOOTER_BLOG_LATEST_TITLE: 'Articles Récents',
 
@@ -243,10 +238,10 @@ const CONFIG = {
 
     // 页面底部的行动呼吁模块
     PROXIO_CTA_ENABLE: true,
-    PROXIO_CTA_TITLE: 'Établissons une connexion',
-    PROXIO_CTA_TITLE_2: 'Lançons immédiatement votre projet',
+    PROXIO_CTA_TITLE: 'Consultation gratuite',
+    PROXIO_CTA_TITLE_2: 'Parlons de vos projets',
     PROXIO_CTA_DESCRIPTION:
-        'Consultez la documentation opérationnelle de NotionNext, nous fournissons des tutoriels détaillés pour vous aider à construire votre site immédiatement',
+        'Contactez-nous pour une consultation gratuite et découvrez comment nos solutions innovantes peuvent concrétiser vos projets.',
     PROXIO_CTA_BUTTON: true, // 是否显示按钮
     PROXIO_CTA_BUTTON_URL:
         '/about',
