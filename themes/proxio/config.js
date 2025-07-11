@@ -1,8 +1,7 @@
 
 const CONFIG = {
     PROXIO_WELCOME_COVER_ENABLE: true, 
-    PROXIO_WELCOME_TEXT: 'Bienvenue chez IALASOLUTION ! \nDécouvrez nos solutions de conseil et de formation pour booster votre réussite. \nCommencez maintenant !', 
-    PROXIO_HERO_ENABLE: true, 
+PROXIO_WELCOME_TEXT: 'Bienvenue chez IALASOLUTION !<br>Découvrez nos solutions de conseil et de formation pour booster votre réussite.<br>Commencez maintenant !',    PROXIO_HERO_ENABLE: true, 
     PROXIO_HERO_TITLE_1: 'L\'IA pour devenir plus efficace',
     PROXIO_HERO_TITLE_2: ' Améliorez considérablement votre IMPACT', 
     PROXIO_HERO_BUTTON_1_TEXT: 'Decouvrir nos formations', 
