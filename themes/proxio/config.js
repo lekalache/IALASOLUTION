@@ -1,6 +1,6 @@
 
 const CONFIG = {
-    PROXIO_WELCOME_COVER_ENABLE: true, 
+    PROXIO_WELCOME_COVER_ENABLE: false, 
     PROXIO_WELCOME_TEXT: 'Bienvenue chez IALASOLUTION !<br />Découvrez nos solutions de conseil et de formation pour booster votre réussite.<br />Commencez maintenant !', // 欢迎文字，留空则不启用
 
     PROXIO_HERO_ENABLE: true, 
